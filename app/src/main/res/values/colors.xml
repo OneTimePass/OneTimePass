@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- materialpallete.com -->
+    <color name="primary">#795548</color>
+    <color name="primary_dark">#5D4037</color>
+    <color name="primary_light">#d7ccc8</color>
+    <color name="accent">#FFC107</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#ffffff</color>
+    <color name="divider">#BDBDBD</color>
+    <!-- custom extras -->
+    <color name="actionbar_title">#FFFFFF</color>
+    <color name="transparent_dark">#85000000</color>
+    <color name="highlight_neg">#FF9393</color>
+    <color name="highlight_pos">#B9FF89</color>
+    <color name="foreground_neg">#000000</color>
+    <color name="foreground_pos">#000000</color>
+    <color name="ic_logo_background">#FFC107</color>
+    <!-- theme colours -->
+    <color name="primary_background">#FFFFFF</color>
+    <color name="primary_shadow">#DDDDDDDD</color>
+    <!-- drop shadow -->
+    <color name="shadow_00">#00CCCCCC</color>
+    <color name="shadow_10">#10CCCCCC</color>
+    <color name="shadow_20">#20CCCCCC</color>
+    <color name="shadow_30">#30CCCCCC</color>
+    <color name="shadow_40">#40CCCCCC</color>
+    <color name="shadow_50">#50CCCCCC</color>
+    <!-- QR Code -->
+    <color name="qr_code_fg">#000000</color>
+    <color name="qr_code_bg">@android:color/transparent</color>
+</resources>

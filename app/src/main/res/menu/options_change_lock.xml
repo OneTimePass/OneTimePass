@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/optgrp_change_lock"
+        android:visible="false">
+        <item
+            android:id="@+id/action_change_phrase"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:icon="@android:drawable/ic_menu_save"
+            android:orderInCategory="100"
+            android:title="@string/save"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/action_cancel_phrase"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:icon="@android:drawable/ic_menu_close_clear_cancel"
+            android:orderInCategory="999"
+            android:title="@string/cancel"
+            app:showAsAction="never" />
+    </group>
+
+</menu>

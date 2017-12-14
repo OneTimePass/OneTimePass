@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="changes_1_2_1_tag">v1.2.1 (2017-12-14)</string>
+    <string name="changes_1_2_1_log">Final codebase touchups for initial public release.</string>
+    <string name="changes_1_2_0_tag">v1.2.0 (2017-12-08)</string>
+    <string name="changes_1_2_0_log">Theming, cosmetics, bug-fixes and code consolidations.</string>
+    <string name="changes_1_1_1_tag">v1.1.1 (2017-12-05)</string>
+    <string name="changes_1_1_1_log">Finalized package name + version code, all text is ready for translating, general cosmetic UI cleanups. New feature: import/export account data.</string>
+    <string name="changes_1_0_1_tag">v1.0.1 (2017-12-03)</string>
+    <string name="changes_1_0_1_log">Fix for lock setup crashing, fix clipboard bug for Android 4.2+ and add support for normal, large, xlarge and landscape layouts.</string>
+    <string name="changes_1_0_0_tag">v1.0.0 (2017-12-02)</string>
+    <string name="changes_1_0_0_log">Beta release.</string>
+    <string name="changes_0_0_0_tag">v0.0.0 (2017-11-22)</string>
+    <string name="changes_0_0_0_log">Alpha release.</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="credit_000_label">OTP-Authenticator</string>
+    <string name="credit_000_reason">(TOTP secret value generation routines)</string>
+    <string name="credit_000_link">https://github.com/0xbb/otp-authenticator</string>
+    <string name="credit_001_label">OneTimePad</string>
+    <string name="credit_001_reason">(file format, AES encryption extras)</string>
+    <string name="credit_001_link">https://github.com/kckrinke/onetimepad</string>
+    <string name="credit_002_label">java-aes-crypto</string>
+    <string name="credit_002_reason">(AES cryptography routines)</string>
+    <string name="credit_002_link">https://github.com/tozny/java-aes-crypto</string>
+    <string name="credit_003_label">barcodescanner</string>
+    <string name="credit_003_reason">(QR code scanning)</string>
+    <string name="credit_003_link">https://github.com/dm77/barcodescanner</string>
+    <string name="credit_004_label">TextDrawable</string>
+    <string name="credit_004_reason">(account icon creation)</string>
+    <string name="credit_004_link">https://github.com/amulyakhare/TextDrawable</string>
+    <string name="credit_005_label">Android-ItemTouchHelper-Demo</string>
+    <string name="credit_005_reason">(drag-and-drop list management, example code reference)</string>
+    <string name="credit_005_link">https://github.com/iPaulPro/Android-ItemTouchHelper-Demo</string>
+    <string name="credit_006_label">Apache Commons Codec</string>
+    <string name="credit_006_reason">(Base32 binary encoder)</string>
+    <string name="credit_006_link">https://github.com/apache/commons-codec</string>
+    <string name="credit_007_label">Apache Commons IO</string>
+    <string name="credit_007_reason">(IOUtils for reading byte data)</string>
+    <string name="credit_007_link">https://github.com/apache/commons-io</string>
+    <string name="credit_008_label">file-dialogs</string>
+    <string name="credit_008_reason">(file import/export choosers)</string>
+    <string name="credit_008_link">https://github.com/RustamG/file-dialogs</string>
+</resources>

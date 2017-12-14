@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">OneTimePass</string>
+    <string name="version_label">Version: %1$s</string>
+
+    <string name="add_account">Add Account</string>
+    <string name="icon_desc">Account Icon</string>
+
+    <string name="passphrase">Passphrase</string>
+    <string name="change_passphrase">Change Passphrase</string>
+    <string name="changing_passphrase">Changing Passphrase</string>
+    <string name="old_passphrase">Old Passphrase</string>
+    <string name="new_passphrase">New Passphrase</string>
+    <string name="export_passphrase">Export Passphrase</string>
+    <string name="import_passphrase">Import Passphrase</string>
+    <string name="confirm_passphrase">Confirm passphrase</string>
+
+    <string name="accounts">Accounts</string>
+    <string name="details">Details</string>
+    <string name="label">Label</string>
+    <string name="issuer">Issuer</string>
+    <string name="secret">Secret</string>
+    <string name="hint_optional">(Optional)</string>
+    <string name="hint_required">(Required)</string>
+
+    <string name="scan_qr">Scan QR Code</string>
+    <string name="add">Add</string>
+    <string name="edit">Edit</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="search">Search</string>
+    <string name="about">About</string>
+    <string name="import_data">Import Data</string>
+    <string name="export_data">Export Data</string>
+
+    <string name="setlock">Set Lock</string>
+    <string name="unlock">Unlock</string>
+    <string name="back">Back</string>
+    <string name="quit">Quit</string>
+
+    <string name="zeros">000000</string>
+
+    <string name="rw_file_perm_reason">File access permissions are required to import or export files.</string>
+
+    <string name="error_no_cam_perm">Unable to scan QR codes without permission to use the camera.</string>
+    <string name="error_no_pass">Missing passphrase</string>
+    <string name="error_pass_no_match">Passphrases do not match</string>
+    <string name="error_bad_pass">Incorrect passphrase</string>
+    <string name="error_change_pass_fail">An unknown error occurred while trying to change the passphrase</string>
+    <string name="error_storage_export">There was an error while trying to export the account information.</string>
+    <string name="error_storage_import">There was an error while trying to import the account information.</string>
+    <string name="error_storage_save">There was an unknown error while saving account data.</string>
+    <string name="error_storage_save_file">Failed to write %1$s. Please check if the application has permission to read/write files.</string>
+    <string name="error_edit_req_fields">Label and secret are required fields.</string>
+
+    <string name="clipboard_cleared">OneTimePass cleared the clipboard</string>
+    <string name="clipboard_expired">OneTimePass expired the clipboard</string>
+    <string name="clipboard_expires_in">Secret copied, clipboard expires in %1$d seconds.</string>
+
+    <string name="storage_saving">Saving %1$d account(s)</string>
+    <string name="storage_exporting">Exporting %1$d account(s)</string>
+    <string name="storage_exported">The account information has been exported.</string>
+    <string name="storage_saved">Wrote %1$s</string>
+    <string name="storage_export_file">Export as...</string>
+    <string name="storage_import_file">Import file</string>
+    <string name="storage_setting_up">Setting up</string>
+    <string name="storage_preparing">Preparing</string>
+    <string name="storage_locking">Locking</string>
+    <string name="storage_unlocking">Unlocking</string>
+    <string name="storage_reading">Reading</string>
+    <string name="storage_reading_of">%1$d of %2$d</string>
+    <string name="storage_merging">Merging</string>
+    <string name="storage_merged">Merged %1$s</string>
+    <string name="storage_replacing">Replacing</string>
+    <string name="storage_replaced">Replaced %1$s</string>
+    <string name="storage_writing">Saving</string>
+    <string name="storage_import_merge">Import (Merge)</string>
+    <string name="storage_import_replace">Import (Replace)</string>
+    <string name="storage_imported">The account information has been imported.</string>
+    <string name="storage_import_merge_vs_replace">Do you want to merge the accounts instead of replacing them?</string>
+    <string name="storage_merge">Merge</string>
+    <string name="storage_replace">Replace</string>
+    <string name="storage_404">File not found</string>
+
+    <string name="account_add_instructions">The label and secret fields are required. The secret must only be letters and numbers (alphanumeric only).</string>
+    <string name="account_add_secret_hint">(Required [A-Z0-9])</string>
+    <string name="account_delete_prompt">Are you want to delete this account?</string>
+    <string name="account_make_qr">Generating QR Code</string>
+    <string name="account_adding">Adding %1$s</string>
+    <string name="account_inbound_uri">Received URI</string>
+    <string name="account_inbound_uri_otpauth">A valid OTP authentication URI was received, add the account?\n\n%1$s</string>
+    <string name="account_inbound_uri_content">A valid content file URI was received, import the data?\n\n%1$s</string>
+    <string name="account_list_empty">There are no account entries yet. Accounts can be created using "Add Account" or "Scan QR Code".</string>
+
+    <string name="import_uri_reminder">Please provide the password and then press import.</string>
+
+    <string name="quit_message">Exiting OneTimePass</string>
+
+    <string name="placeholder">Lorem ipsum</string>
+    <string name="splash_screen_title">Splash Screen</string>
+</resources>

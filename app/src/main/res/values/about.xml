@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_tagline">Two-factor (TOTP) authentication for Android 4.2+</string>
+    <string name="about_copyright">Copyright © 2017  Kevin C. Krinke</string>
+    <string name="about_license">Open Source</string>
+    <string name="about_url">https://github.com/OneTimePass/OneTimePass</string>
+    <string name="about_version">Version 0.0.0</string>
+    <string name="about_changelog">Change Log</string>
+    <string name="about_credits">Credits</string>
+</resources>
