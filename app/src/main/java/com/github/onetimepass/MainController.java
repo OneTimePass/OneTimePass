@@ -154,16 +154,17 @@ public class MainController extends Controller
                     @Override
                     public void performAction(final Context context, final String[] data) {
                         Notify.Short(context,R.string.quit_message);
+                        clearAuthCache();
                         getStorage().Close();
                         onExitCleanup();
-                        popBackStack();
                         new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
                             @Override
                             public void run() {
                                 Notify.Debug();
                                 System.exit(0);
                             }
-                        },2000);
+                        },500);
+                        finish();
                     }
                 }
         );

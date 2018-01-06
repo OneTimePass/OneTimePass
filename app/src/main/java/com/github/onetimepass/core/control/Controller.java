@@ -317,7 +317,11 @@ abstract public class Controller
             mPassPhraseCache = null;
             popBackStack();
             if (mIdleTimer.getExitOnFinish()) {
-                performControlAction("quit");
+                try {
+                    ControlAction quit = getControlAction("quit");
+                    if (quit != null)
+                        quit.performAction(this, new String[]{});
+                } catch (Exception ignore) {}
             } else {
                 clearAuthCache();
                 transitionToScreen("unlock");
