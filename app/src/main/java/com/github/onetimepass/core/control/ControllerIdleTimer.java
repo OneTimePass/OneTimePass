@@ -29,6 +29,7 @@ public class ControllerIdleTimer extends CountDownTimer {
         private boolean mExitOnFinish = false;
         private boolean mIsTicking = false;
         private IdleListener mIdleListener;
+    private long mIdleTimeout = 0;
 
     /**
      * The interface Idle listener.
@@ -66,6 +67,26 @@ public class ControllerIdleTimer extends CountDownTimer {
             super(Constants.IDLE_TIMEOUT, Constants.IDLE_INTERVAL);
             mIdleListener = listener;
         }
+
+    /**
+     * Instantiates a new Controller idle timer with the given timeout.
+     *
+     * @param listener the listener
+     * @param timeout  the number of milliseconds until expiration
+     */
+    public ControllerIdleTimer(IdleListener listener, long timeout) {
+        super(timeout, Constants.IDLE_INTERVAL);
+        mIdleListener = listener;
+        mIdleTimeout = timeout;
+    }
+
+    /**
+     * Return the timeout value used during construction
+     * @return timeout
+     */
+    public long getIdleTimeout() {
+        return mIdleTimeout;
+    }
 
     /**
      * Start timer.
