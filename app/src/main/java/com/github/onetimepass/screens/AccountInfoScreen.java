@@ -307,7 +307,7 @@ public class AccountInfoScreen extends Screen {
             public void run() {
                 long n = getSecretTimeDelta();
                 double p = (double)n / 30000.0 * 100.0;
-                if ((int)p == 0)
+                if (p <= 4.0 || p >= 100.0)
                     updateViews();
                 mProgressView.setProgress((int)p);
                 mHandlerProgress.postDelayed(this, 250);
