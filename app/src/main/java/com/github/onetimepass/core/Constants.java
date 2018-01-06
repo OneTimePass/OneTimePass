@@ -41,6 +41,10 @@ public class Constants {
      */
     public static final long IDLE_TIMEOUT = (3 * (60 * 1000)); // 3 minutes
     /**
+     * The constant IDLE_EXPIRE.
+     */
+    public static final long IDLE_EXPIRE = (30 * 1000); // 30 seconds
+    /**
      * The constant IDLE_INTERVAL.
      */
     public static final long IDLE_INTERVAL = (1 * 1000); // 1 second

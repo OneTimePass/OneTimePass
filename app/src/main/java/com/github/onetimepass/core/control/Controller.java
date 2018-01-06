@@ -288,14 +288,14 @@ abstract public class Controller
 
     public void onIdleTimerStart() {
         Notify.Debug();
-        int max = (int) Constants.IDLE_TIMEOUT;
+        int max = (int) mIdleTimer.getIdleTimeout();
         mIdleTimerBar.setMax(max);
         mIdleTimerBar.setProgress(max);
     }
 
     public void onIdleTimerStop() {
         Notify.Debug();
-        int max = (int)Constants.IDLE_TIMEOUT;
+        int max = (int) mIdleTimer.getIdleTimeout();
         mIdleTimerBar.setMax(max);
         mIdleTimerBar.setProgress(max);
     }
@@ -475,6 +475,9 @@ abstract public class Controller
         Notify.Debug();
         mAlive = true;
         setTitle(R.string.app_name);
+        mIdleTimer.cancel();
+        mIdleTimer = new ControllerIdleTimer(this);
+        Notify.Debug("created idle timeout timer");
         mIdleTimer.setExitOnFinish(false);
         if (mStorage.IsOpen())
             mIdleTimer.RestartTimer();
@@ -485,6 +488,11 @@ abstract public class Controller
     public void onPause() {
         super.onPause();
         Notify.Debug();
+        mIdleTimer.cancel();
+        mIdleTimer = new ControllerIdleTimer(this, Constants.IDLE_EXPIRE);
+        Notify.Debug("created idle expire timer");
+        if (mStorage.IsOpen())
+            mIdleTimer.StartTimer();
         mAlive = false;
         mIdleTimer.setExitOnFinish(true);
     }
