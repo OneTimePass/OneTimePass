@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="changes_1_2_2_tag">v1.2.2 (2018-02-13)</string>
+    <string name="changes_1_2_2_log">TOTP code now updates properly. Removed bintray dependency, use GitHub via jitpack. Minimum Android 5.0 supported.</string>
     <string name="changes_1_2_1_tag">v1.2.1 (2017-12-14)</string>
     <string name="changes_1_2_1_log">Final codebase touchups for initial public release.</string>
     <string name="changes_1_2_0_tag">v1.2.0 (2017-12-08)</string>
