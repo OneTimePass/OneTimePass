@@ -2,7 +2,7 @@
 
 ![OneTimePass logo](./app/src/main/res/mipmap-hdpi/ic_logo_round.png "OneTimePass logo")
 
-Two-factor (TOTP) authentication for Android 4.2+
+Two-factor (TOTP) authentication for Android 5.0+
 
 ## Features
 
@@ -16,7 +16,7 @@ OneTimePass supports the following features:
 1. Import/Export for backup and restore purposes
 1. Does not rely upon Android Shared Preferences
 1. Relies upon AES-256 for on-device encryption
-1. Supports Android 4.2 (and up)
+1. Supports Android 5.0 (and up)
 
 ## Contributing
 
@@ -32,8 +32,8 @@ This application is inspired by [OTP-Authenticator](https://github.com/0xbb/otp-
 
 ## License
 ```
-OneTimePass - Two-factor (TOTP) authentication for Android 4.2+
-Copyright (C) 2017  Kevin C. Krinke
+OneTimePass - Two-factor (TOTP) authentication for Android 5.0+
+Copyright (C) 2017-2018  Kevin C. Krinke
 
 This software is free software; you can redistribute it and/or
 modify it under the terms of the GNU Lesser General Public
