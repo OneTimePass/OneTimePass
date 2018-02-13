@@ -3,7 +3,6 @@ apply plugin: 'com.android.application'
 allprojects {
     repositories {
         maven { url 'https://jitpack.io' }
-        maven { url 'http://dl.bintray.com/amulyakhare/maven' }
     }
 }
 
@@ -39,6 +38,6 @@ dependencies {
     compile 'me.dm7.barcodescanner:zxing:1.9'
     compile 'commons-codec:commons-codec:1.11'
     compile 'commons-io:commons-io:2.6'
-    compile 'com.amulyakhare:com.amulyakhare.textdrawable:1.0.1'
+    compile 'com.github.amulyakhare:TextDrawable:master'
     compile 'com.github.rustamg:file-dialogs:1.0'
 }
