@@ -4,6 +4,9 @@
 
 Two-factor (TOTP) authentication for Android 5.0+
 
+<a href="https://f-droid.org/packages/com.github.onetimepass/" target="_blank">
+<img src="https://f-droid.org/badge/get-it-on.png" alt="Get it on F-Droid" height="70"/></a>
+
 ## Features
 
 OneTimePass supports the following features:
