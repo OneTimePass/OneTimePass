@@ -119,6 +119,15 @@
                     android:layout_margin="8dp"
                     android:contentDescription="@string/details" />
 
+                <TextView
+                    android:id="@+id/account_tap_to_hide"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:editable="false"
+                    android:gravity="center"
+                    android:text="@string/tap_to_hide" />
+
             </LinearLayout>
 
             <LinearLayout
@@ -134,6 +143,15 @@
                     android:layout_gravity="center_vertical|center_horizontal"
                     android:layout_margin="8dp"
                     android:contentDescription="@string/details" />
+
+                <TextView
+                    android:id="@+id/account_tap_for_qr"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:editable="false"
+                    android:gravity="center"
+                    android:text="@string/tap_for_qr" />
 
             </LinearLayout>
 
