@@ -7,25 +7,23 @@ Two-factor (TOTP) authentication for Android 5.0+
 <a href="https://f-droid.org/packages/com.github.onetimepass/" target="_blank">
 <img src="https://f-droid.org/badge/get-it-on.png" alt="Get it on F-Droid" height="70"/></a>
 
-## Features
+## IMPORTANT NOTICE
 
-OneTimePass supports the following features:
+This application is no longer maintained and should be considered abandon-ware.
 
-1. Supports opening otpauth:// URLs
-1. Scan QR codes to create new accounts easily
-1. View QR codes to export existing accounts
-1. Searchable, sortable listing of accounts
-1. Manual entry account creation
-1. Import/Export for backup and restore purposes
-1. Does not rely upon Android Shared Preferences
-1. Relies upon AES-256 for on-device encryption
-1. Supports Android 5.0 (and up)
+Please stop using this application.
 
-## Contributing
+Do not install this application unless you actually need this specific one.
 
-Submit bug reports and request features using [github issues](https://github.com/OneTimePass/OneTimePass/issues).
+There are three different migration paths away from this application:
 
-Have code to share back? Make a pull request using the [development](https://github.com/OneTimePass/OneTimePass/tree/development) branch.
+1. Manually reset each TOTP account at the actual site and import the new setup into a different TOTP application.
+1. For each account, use another device or computer to scan the account's QR code.
+1. For each account, take a screenshot of the account's QR code, securely copy the screenshot to a computer and then scan them using a different TOTP application from the original device.
+
+You can find these QR codes by tapping the circular account icon on any of the
+individual account screens. The circular account icon changes into the QR code.
+
 
 ## Credits
 
@@ -36,7 +34,7 @@ This application is inspired by [OTP-Authenticator](https://github.com/0xbb/otp-
 ## License
 ```
 OneTimePass - Two-factor (TOTP) authentication for Android 5.0+
-Copyright (C) 2017-2018  Kevin C. Krinke
+Copyright (C) 2017-2021  Kevin C. Krinke
 
 This software is free software; you can redistribute it and/or
 modify it under the terms of the GNU Lesser General Public
