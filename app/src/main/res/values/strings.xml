@@ -98,4 +98,6 @@
 
     <string name="placeholder">Lorem ipsum</string>
     <string name="splash_screen_title">Splash Screen</string>
+    <string name="tap_for_qr">(tap for QR)</string>
+    <string name="tap_to_hide">(tap to hide)</string>
 </resources>
