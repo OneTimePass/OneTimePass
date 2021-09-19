@@ -433,10 +433,10 @@ abstract public class Controller
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Notify.Debug();
-        getWindow().setFlags(
+        /*getWindow().setFlags(
                 WindowManager.LayoutParams.FLAG_SECURE,
                 WindowManager.LayoutParams.FLAG_SECURE
-        );
+        );*/
         setContentView(R.layout.activity_main);
         setTitle(R.string.app_name);
         getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
