@@ -6,7 +6,7 @@
     android:orientation="vertical"
     tools:context="com.github.onetimepass.screens.ExportScreen">
 
-        <android.support.constraint.ConstraintLayout
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
@@ -99,6 +99,6 @@
                 app:layout_constraintStart_toEndOf="@+id/export_path_view"
                 app:layout_constraintTop_toBottomOf="@+id/passconfirm_text" />
 
-        </android.support.constraint.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
 </LinearLayout>

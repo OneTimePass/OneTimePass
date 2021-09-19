@@ -15,8 +15,8 @@ package com.github.onetimepass.core.screen;
  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 import android.content.res.Resources;
 import android.net.Uri;
 import android.os.Bundle;

@@ -20,7 +20,7 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Handler;
 import android.os.Looper;
-import android.support.v4.widget.TextViewCompat;
+import androidx.core.widget.TextViewCompat;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.View;

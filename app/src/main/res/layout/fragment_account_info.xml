@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context="com.github.onetimepass.screens.AccountInfoScreen">
 
-    <android.support.constraint.ConstraintLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -157,6 +157,6 @@
 
         </ViewSwitcher>
 
-    </android.support.constraint.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </FrameLayout>

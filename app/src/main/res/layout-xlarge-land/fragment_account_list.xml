@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context="com.github.onetimepass.screens.AccountListScreen">
 
-    <android.support.constraint.ConstraintLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -27,13 +27,13 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
-    </android.support.constraint.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <android.support.v7.widget.RecyclerView xmlns:tools="http://schemas.android.com/tools"
+        <androidx.recyclerview.widget.RecyclerView xmlns:tools="http://schemas.android.com/tools"
             android:id="@+id/account_list"
             android:name="com.github.onetimepass.AccountFragment"
             android:layout_width="match_parent"
@@ -42,7 +42,7 @@
             tools:context="com.github.onetimepass.fragments.AccountFragment"
             tools:listitem="@layout/fragment_account_list_item">
 
-        </android.support.v7.widget.RecyclerView>
+        </androidx.recyclerview.widget.RecyclerView>
 
     </ScrollView>
 

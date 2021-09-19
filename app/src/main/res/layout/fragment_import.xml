@@ -6,7 +6,7 @@
     android:orientation="vertical"
     tools:context="com.github.onetimepass.screens.ImportScreen">
 
-        <android.support.constraint.ConstraintLayout
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
@@ -54,18 +54,19 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="start"
-                android:layout_marginEnd="32dp"
                 android:layout_marginStart="32dp"
-                android:contentDescription="@string/import_passphrase"
+                android:layout_marginEnd="32dp"
                 android:ems="10"
                 android:inputType="textPassword"
+                android:minHeight="48dp"
                 android:textAlignment="viewStart"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView4" />
+                app:layout_constraintTop_toBottomOf="@+id/textView4"
+                android:importantForAutofill="no" />
 
-        </android.support.constraint.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
 </LinearLayout>
