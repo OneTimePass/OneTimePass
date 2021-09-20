@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="changes_1_2_3_tag">v1.2.3 (2021-09-19)</string>
-    <string name="changes_1_2_3_log">Minor fixes, enabled screenshots and build for Android 11 (minimum is still Android 5). Important Notice: this app is not maintained anymore, please stop using it.</string>
+    <string name="changes_1_2_3_log">Minor fixes, enabled screenshots and build for Android 11 (minimum is still Android 5). Important Notice: this app is not maintained anymore, please stop using it. See the github README.md at the above link for example ways to migrate away from OneTimePass.</string>
     <string name="changes_1_2_2_tag">v1.2.2 (2018-02-13)</string>
     <string name="changes_1_2_2_log">TOTP code now updates properly. Removed bintray dependency, use GitHub via jitpack. Minimum Android 5.0 supported.</string>
     <string name="changes_1_2_1_tag">v1.2.1 (2017-12-14)</string>
