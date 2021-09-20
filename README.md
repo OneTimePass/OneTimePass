@@ -4,26 +4,21 @@
 
 Two-factor (TOTP) authentication for Android 5.0+
 
-<a href="https://f-droid.org/packages/com.github.onetimepass/" target="_blank">
-<img src="https://f-droid.org/badge/get-it-on.png" alt="Get it on F-Droid" height="70"/></a>
+## Important Notice
 
-## IMPORTANT NOTICE
+Do not install this application. This application is no longer maintained and anyone using it is advised to migrate away from it.
 
-This application is no longer maintained and should be considered abandon-ware.
+The following are recommended ways to migrate away from OneTimePass.
 
-Please stop using this application.
+1. Select a new TOTP application and manually reset each TOTP account at the actual site.
+1. Use another device or computer to scan each TOTP account's QR code with a new TOTP application.
+1. Select a new TOTP application and for each account:
+   - take a screenshot of the account's QR code
+   - copy the screenshot to another device (or computer)
+   - scan them using the new TOTP application
+   - delete all copies of all screenshots used
 
-Do not install this application unless you actually need this specific one.
-
-There are three different migration paths away from this application:
-
-1. Manually reset each TOTP account at the actual site and import the new setup into a different TOTP application.
-1. For each account, use another device or computer to scan the account's QR code.
-1. For each account, take a screenshot of the account's QR code, securely copy the screenshot to a computer and then scan them using a different TOTP application from the original device.
-
-You can find these QR codes by tapping the circular account icon on any of the
-individual account screens. The circular account icon changes into the QR code.
-
+You can reveal QR codes by tapping the circular account icon from any account screen.
 
 ## Credits
 
